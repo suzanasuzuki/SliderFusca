@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="title">
+                <h1>Tributo ao Fusca-Volksvagem</h1>
+                <p class="subtitle">O carro mais popular de todos os tempos</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control" onclick="goPrev()">voltar</div>
+                <div class="slider--control" onclick="goNext()">proximo</div>
+            </div>
+            <div class="slider--width" style="width: calc(100vw * 3)">
+                <div class="slider--item" style="background-image: url('assets/image/1.jpg');"></div>
+                <div class="slider--item" style="background-image: url('assets/image/2.jpg');"></div>
+                <div class="slider--item" style="background-image: url('assets/image/3.jpeg');"></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <h1>Restante do Site</h1>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
