@@ -13,6 +13,8 @@ header {
     height: 100vh;
 }
 
+/*CABEÇALHO DO PROJETO*/
+
 .header {
     background: #FFF;
     display: flex;
@@ -63,6 +65,8 @@ nav ul {
     background-size: cover;
 }
 
+/*BOTÃO DO SITE DE PROXIMO E ANTES*/
+
 .slider--controls {
     position: absolute;
     z-index: 99;
@@ -75,17 +79,22 @@ nav ul {
 .slider--control {
     width: 50px;
     height: 50px;
-    background-color: #FFF;
     border-radius: 50%;
     overflow: hidden;
 }
+
+.slider--control img {
+    width: 50px;
+    height: 50px;
+}
+/* TIME LINE INICIO */
 
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-/* SECTION RETANTE DO SITE */
+/* SECTION RESTANTE DO SITE */
 
 .text {
     padding: 30px 0;
@@ -95,13 +104,6 @@ nav ul {
 }
 
 /* TEXTO PRINCIPAL */
-
-.text {
-    padding: 30px 0;
-    text-align: center;
-    color: #000000;
-    font-weight: 700;
-}
 
 .legend {
     font-size:10px;
@@ -227,13 +229,24 @@ nav ul {
 
 .widget_titleright {
     flex: 1;
-    margin-bottom: 21px;
+    margin-bottom: 25px;
     padding-top: 8px;
     margin-left: 4px;
     font-weight: 700;
     text-align: left;
     font-size: 27px;
     color: #CB7222;
+}
+
+.widget_titleright1 {
+    flex: 1;
+    margin-bottom: 25px;
+    padding-top: 8px;
+    margin-left: 4px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 20px;
+    color: #CB7222; 
 }
 
 .widget_description {
@@ -276,17 +289,37 @@ nav ul {
     color: #FFF;
 } 
 
+.widget_description5 {
+    border-left: 5px solid #C8C8C8;
+    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 6px;
+    color: #FFF;
+} 
+
+.widget_description5 a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.widget_description5 a:hover {
+    text-decoration: underline;
+    background-color: #CB7222;
+    font-weight: bold;
+}
+
+
+
+
 /* RODAPÉ */
 
 .footer_cop {
+    background-color:#042C57;
     font-weight: 700;
-    border-top: 1px solid #042C57;
-    padding-top: 5px;
     line-height: 40px;
-    color: #CB7222;
+    color: #ddd;
     font-size: 12px;
     margin-top: 8px;
-    border-bottom: 1px solid #042C57;
     display: flex;
     justify-content: center;
 }
@@ -298,4 +331,10 @@ nav ul {
 .informations a {
     text-decoration: none;
     color: #042C57;
+}
+
+.informations a:hover {
+    text-decoration: underline;
+    background-color: #CB7222;
+    font-weight: bold;
 }
