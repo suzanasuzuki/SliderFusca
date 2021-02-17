@@ -4,7 +4,7 @@
 
 <p> Algumas Costumizações feitas por mim mesmo @SuzanaSuzuki🎯</p>
 
-<h2>Projeto Concluído🎯</h2><br/>
+<h2>Projeto a ser concluído</h2><br/>
 
 <img src="assets/finaleproject/partedecimamaisslide.png" /><br/>
 <img src="assets/finaleproject/2.png" /><br/>
